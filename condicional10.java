@@ -17,16 +17,16 @@ public class condicional10 {
 		System.out.println("Digite sua Altura:");
 		altura=leitor.nextFloat();
 		
-		System.out.println("Seu sexo é Masculino ou Feminino:");
+		System.out.println("Seu sexo e Masculino ou Feminino:");
 		sexo=leitor.next();
 		
 		if (sexo.equalsIgnoreCase(Masculino))
 		
-		System.out.println("Seu peso ideal é:"+((72.7*altura/100)-58));
+		System.out.println("Seu peso ideal e:"+((72.7*altura/100)-58));
 		
 		else
 			
-		System.out.println("Seu peso ideal é:"+((62.1*altura/100)-44.7));
+		System.out.println("Seu peso ideal e:"+((62.1*altura/100)-44.7));
 		
 		
 		
