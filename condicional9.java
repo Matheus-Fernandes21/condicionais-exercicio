@@ -11,13 +11,13 @@ public class condicional9 {
 		
 		double x ;
 		
-		System.out.println("Digite o preço de compra do produto:");
+		System.out.println("Digite o preÃ§o de compra do produto:");
 		x=leitor.nextDouble();
 		
 		if (x<=20)
-			System.out.println("Deverá vender tal produto pelo preço de "+(x*45/100+x)+"R$.");
+			System.out.println("O preÃ§o de venda deve ser de:"+(x*45/100+x)+"R$.");
 		else
-			System.out.println("Deverá vender tal produto pelo preço de "+(x*30/100+x)+"R$.");
+			System.out.println("O preÃ§o de venda deve ser de:"+(x*30/100+x)+"R$.");
 		
 		
 		
